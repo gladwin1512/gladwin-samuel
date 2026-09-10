@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { LanguageProvider } from './i18n/LanguageContext';
 import { LanguageGatewayModal } from './components/LanguageGatewayModal';
 import { Header } from './components/Header';
@@ -87,6 +88,9 @@ export default function App() {
           isOpen={sourcesModalOpen}
           onClose={handleCloseSources}
         />
+
+        {/* Vercel Web Analytics */}
+        <Analytics />
       </div>
     </LanguageProvider>
   );
