@@ -1,0 +1,6 @@
+{
+  "name": "Modi's Guarantee & BJP Manifesto Audit",
+  "description": "Investigative data-journalism dashboard auditing BJP and PM Narendra Modi's manifesto promises (Fulfilled, In Progress, Broken) across national guarantees and all 28 Indian States and 8 Union Territories with official CAG, PLFS, RBI, and ADR citations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
